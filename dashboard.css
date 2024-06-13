@@ -8,13 +8,14 @@
     justify-content: start;
 }
 .sidepanel{
+    background-color: #bcc2be;
     width: 20%;
 }
 .main-icon-text{
     width: 1%;
     margin-left: 5px;
 }
-.main-icon-text1{
+.main-icon-text{
     display: flex;
     align-items: center;
     height: 45px;
@@ -22,10 +23,13 @@
 .MAIN-ICON{
     display: none;
     margin-left: 15px;
-    transition: 55s;
+}
+.MAIN-ICON h5{
+    margin-bottom: 2px;
+    border-bottom: 1px solid black;
 }
 .dis{
-    width: 245px;
+    width: 140px; 
     display: block;
     margin-left: 15px;
     transition: 55s;
@@ -56,4 +60,8 @@
     width: 100%;
     height: 21.875px;
     color: white;
+}
+.main-sub-1{
+    display: flex;
+    align-items: center;
 }
